@@ -4,70 +4,75 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./output.css" rel="stylesheet" />
-    <title>Travlog - Travel Landing Page</title>
+    <title>Travelo - Travel Landing Page</title>
   </head>
-  <body class="bg-background">
+  <body class="bg-background overflow-x-hidden">
     <header>
       <nav class="flex justify-center py-9">
         <a href="index.html" class="flex items-center">
-          <img src="./assets/logo.png" class="w-28" alt="Travlog logo" />
+          <img src="./assets/logo.png" class="w-28" alt="Travelo logo" />
         </a>
       </nav>
     </header>
-    <main class="px-2 overflow-y-scroll">
-      <section class="flex flex-col justify-center items-center w-full pt-8">
-        <div class="flex justify-center px-4">
-          <img src="./assets/hero_sm.png" alt="Top places" />
-        </div>
-        <div class="bg-white flex items-center gap-3 py-4 px-6 rounded-3xl">
-          <p class="font-semibold text-sm text-primary">Explore the world!</p>
+    <main>
+      <section
+        class="flex flex-col px-3 lg:flex-row-reverse justify-center items-center w-full pt-4"
+      >
+        <div class="flex justify-center">
           <img
-            src="./assets/work_bag_icon.png"
-            class="w-5"
-            alt="Work bag icon"
+            src="./assets/hero_sm.png"
+            alt="Top places"
+            class="w-full lg:w-3/4"
           />
         </div>
-        <div class="flex flex-col justify-center w-full mt-5">
-          <h1 class="text-4xl font-bold text-center px-4">
+
+        <div
+          class="flex flex-col justify-center items-center w-full border-2 border-red-500 md:px-20"
+        >
+          <div
+            class="bg-white flex justify-center items-center gap-3 py-4 px-6 rounded-full"
+          >
+            <p class="font-semibold text-sm text-primary">Explore the world!</p>
+            <img
+              src="./assets/work_bag_icon.png"
+              class="w-5"
+              alt="Work bag icon"
+            />
+          </div>
+          <h1 class="text-4xl md:text-5xl font-bold text-center px-4 mt-5">
             Top <span class="text-primary">Travel Destinations</span> Around the
             Globe
           </h1>
 
-          <p class="text-center mt-8 px-2 text-gray-500 tetx-sm">
+          <p class="text-center mt-8 px-2 text-gray-500 tetx-sm md:px-16">
             We consistently delight our customers by offering a wide range of
             choices
           </p>
-          <button
-            class="text-white font-medium bg-button rounded-full mt-8 py-4 drop-shadow-lg mx-2"
-          >
-            Get Started
-          </button>
-          <button
-            class="font-medium flex justify-center items-center gap-2 bg-white rounded-full mt-5 py-4 mx-2"
-          >
-            <img src="./assets/play_icon.png" class="w-5" alt="Play icon" />
-            Watch Demo
-          </button>
-          <div
-            class="overflow-x-scroll flex mt-10 h-24 items-center gap-7 px-4"
-          >
-            <img
-              src="./assets/tripadvisor_logo.png"
-              class="h-6"
-              alt="Tripadvisor logo"
-            />
-            <img
-              src="./assets/expedia_logo.png"
-              class="h-7"
-              alt="Expedia logo"
-            />
-            <img
-              src="./assets/booking_logo.png"
-              class="h-6"
-              alt="Booking logo"
-            />
-            <img src="./assets/airbnb_logo.png" class="h-7" alt="Airbnb logo" />
+          <div class="px-2 flex flex-col w-full">
+            <button
+              class="text-white font-medium bg-button w-full rounded-full mt-8 py-4 drop-shadow-lg"
+            >
+              Get Started
+            </button>
+            <button
+              class="font-medium flex justify-center w-full items-center gap-2 bg-white rounded-full mt-5 py-4"
+            >
+              <img src="./assets/play_icon.png" class="w-5" alt="Play icon" />
+              Watch Demo
+            </button>
           </div>
+        </div>
+      </section>
+      <section>
+        <div class="overflow-x-scroll flex mt-10 h-24 items-center gap-7 px-4">
+          <img
+            src="./assets/tripadvisor_logo.png"
+            class="h-6"
+            alt="Tripadvisor logo"
+          />
+          <img src="./assets/expedia_logo.png" class="h-7" alt="Expedia logo" />
+          <img src="./assets/booking_logo.png" class="h-6" alt="Booking logo" />
+          <img src="./assets/airbnb_logo.png" class="h-7" alt="Airbnb logo" />
         </div>
       </section>
     </main>
