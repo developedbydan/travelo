@@ -33,28 +33,28 @@
         </a>
         <ul class="hidden lg:flex gap-14 mt-2">
           <li>
-            <a href="#" class="font-medium text-xl hover:text-button">Home</a>
+            <a href="#" class="font-medium text-base hover:text-button">Home</a>
           </li>
           <li>
-            <a href="#" class="font-medium text-xl hover:text-button"
+            <a href="#" class="font-medium text-base hover:text-button"
               >Discover</a
             >
           </li>
           <li>
-            <a href="#" class="font-medium text-xl hover:text-button"
+            <a href="#" class="font-medium text-base hover:text-button"
               >Special Deals</a
             >
           </li>
           <li>
-            <a href="#" class="font-medium text-xl hover:text-button"
+            <a href="#" class="font-medium text-base hover:text-button"
               >Support</a
             >
           </li>
         </ul>
         <div class="hidden lg:flex gap-8 text-lg mt-2">
-          <button class="font-medium text-xl hover:text-button">Login</button>
+          <button class="font-medium text-base hover:text-button">Login</button>
           <button
-            class="bg-button py-3 px-6 text-white rounded-full text-xl font-medium hover:bg-button-200"
+            class="bg-button py-3 px-6 text-white rounded-full text-base font-medium hover:bg-button-200"
           >
             Sign Up
           </button>
@@ -80,7 +80,7 @@
             class="bg-white shadow-md flex justify-center items-center gap-3 py-4 px-6 lg:mx-4 lg:py-5 lg:px-8 rounded-full animate__animated animate__fadeInUp"
           >
             <p
-              class="font-semibold text-sm md:text-base lg:text-xl text-primary"
+              class="font-semibold text-sm md:text-base lg:text-lg text-primary"
             >
               Explore the world!
             </p>
@@ -99,7 +99,7 @@
           </h1>
 
           <p
-            class="text-center mt-8 px-2 text-gray-500 tetx-sm md:px-16 md:text-lg lg:text-xl lg:px-4 animate__animated animate__fadeInUp"
+            class="text-center mt-8 px-2 text-gray-500 tetx-sm md:px-16 md:text-lg lg:text-lg lg:px-4 animate__animated animate__fadeInUp"
           >
             We consistently delight our customers by offering a wide range of
             choices
@@ -108,12 +108,12 @@
             class="px-2 flex flex-col items-center w-full lg:flex-row lg:gap-5 mt-8 lg:mt-16 lg:w-9/12 animate__animated animate__fadeInUp"
           >
             <button
-              class="text-white md:text-lg flex items-center justify-center font-medium bg-button w-full lg:h-16 rounded-full py-3 lg:px-8 md:py-5 shadow-lg flex-grow hover:bg-button-200"
+              class="text-white flex items-center justify-center font-medium bg-button w-full lg:h-16 rounded-full py-3 lg:px-8 md:py-5 shadow-lg flex-grow hover:bg-button-200"
             >
               Get Started
             </button>
             <button
-              class="font-medium flex justify-center w-full lg:h-16 md:text-lg items-center gap-2 bg-white rounded-full border-2 lg:px-12 border-button mt-5 lg:mt-0 py-3 md:py-5 flex-grow hover:bg-slate-50 hover:border-button-200"
+              class="font-medium flex justify-center w-full lg:h-16 items-center gap-2 bg-white rounded-full border-2 lg:px-12 border-button mt-5 lg:mt-0 py-3 md:py-5 flex-grow hover:bg-slate-50 hover:border-button-200"
             >
               <img
                 src="./assets/play_icon.png"
@@ -155,16 +155,20 @@
           />
         </div>
       </section>
-      <section class="flex flex-col px-5 w-full pt-20 mb-20 lg:pt-1">
-        <h3 class="font-bold text-sm lg:text-xl text-primary tracking-widest">
+      <section class="flex flex-col px-5 w-full pt-20 lg:px-24">
+        <h3
+          class="font-bold text-sm text-center lg:text-xl lg:text-left text-primary tracking-widest"
+        >
           S E R V I C E S
         </h3>
-        <h2 class="font-bold text-2xl lg:text-3xl">Why Choose Travelo</h2>
+        <h2 class="font-bold text-2xl text-center lg:text-4xl lg:text-left">
+          Why Choose Travelo
+        </h2>
         <div
-          class="flex flex-col gap-10 px-5 pt-10 lg:flex-row lg:justify-center"
+          class="flex flex-col gap-10 px-5 pt-10 lg:flex-row lg:justify-center lg:gap-36 lg:pt-24"
         >
           <div
-            class="bg-white flex flex-col justify-center items-center py-14 px-5 rounded-2xl animate-on-scroll"
+            class="bg-white flex flex-col justify-center items-center py-14 px-5 rounded-2xl animate-on-scroll lg:w-3/12 lg:h-96 lg:py-0 shadow-xl"
           >
             <img
               src="./assets/service_icon_1.png"
@@ -172,14 +176,13 @@
               alt="Suitcase"
               loading="lazy"
             />
-            <h3 class="text-xl font-medium mt-10">All You Need</h3>
-            <p class="text-center mt-5 text-gray-500">
-              From flights and accommodations to unforgettable sights, rely on
-              our comprehensive offerings.
+            <h3 class="text-xl font-medium mt-10 lg:text-2xl">All You Need</h3>
+            <p class="text-center mt-5 text-gray-500 lg:text-balance">
+              From flights and accommodations to unforgettable sights.
             </p>
           </div>
           <div
-            class="bg-white flex flex-col justify-center items-center py-14 px-5 rounded-2xl animate-on-scroll"
+            class="bg-white flex flex-col justify-center items-center py-14 px-5 rounded-2xl animate-on-scroll lg:w-3/12 lg:h-96 lg:py-0 lg:pt-4 shadow-lg"
           >
             <img
               src="./assets/service_icon_2.png"
@@ -187,14 +190,16 @@
               alt="Book"
               loading="lazy"
             />
-            <h3 class="text-xl font-medium mt-10">Flexible Booking</h3>
-            <p class="text-center mt-5 text-gray-500">
+            <h3 class="text-xl font-medium mt-10 lg:text-2xl">
+              Flexible Booking
+            </h3>
+            <p class="text-center mt-5 text-gray-500 lg:text-balance">
               Enjoy the freedom of flexible booking options tailored to your
               travel needs.
             </p>
           </div>
           <div
-            class="bg-white flex flex-col justify-center items-center py-14 px-5 rounded-2xl animate-on-scroll"
+            class="bg-white flex flex-col justify-center items-center py-14 px-5 rounded-2xl animate-on-scroll lg:w-3/12 lg:h-96 lg:py-0 shadow-xl"
           >
             <img
               src="./assets/service_icon_3.png"
@@ -202,11 +207,262 @@
               alt="Card"
               loading="lazy"
             />
-            <h3 class="text-xl font-medium mt-10">Secure Payment</h3>
-            <p class="text-center mt-5 text-gray-500">
-              Experience peace of mind with our secure payment options, ensuring
-              your transactions are safe and protected.
+            <h3 class="text-xl font-medium mt-10 lg:text-2xl">
+              Secure Payment
+            </h3>
+            <p class="text-center mt-5 text-gray-500 lg:text-balance">
+              Experience peace of mind with our secure payment options.
             </p>
+          </div>
+        </div>
+      </section>
+      <section class="flex flex-col px-5 w-full pt-20 mb-20 lg:px-24 lg:pt-40">
+        <h3
+          class="font-bold text-sm text-center lg:text-xl lg:text-left text-primary tracking-widest"
+        >
+          P O P U L A R
+        </h3>
+        <h2 class="font-bold text-2xl text-center lg:text-4xl lg:text-left">
+          Explore Popular Getaways
+        </h2>
+        <div
+          class="flex flex-col gap-10 px-5 pt-10 lg:flex-row lg:justify-center lg:pt-24 lg:gap-32"
+        >
+          <div
+            class="bg-white flex flex-col rounded-2xl relative pb-8 animate-on-scroll shadow-lg"
+          >
+            <div
+              class="bg-primary absolute top-0 left-0 py-1 px-5 rounded-tl-2xl rounded-br-2xl"
+            >
+              <p class="text-white lg:text-lg">Greece</p>
+            </div>
+            <img
+              src="./assets/paradise.png"
+              alt="Egkremnoi Beach"
+              class="rounded-t-2xl"
+              loading="lazy"
+            />
+            <div class="px-7 pt-5 flex items-center justify-between">
+              <h3 class="text-xl font-semibold lg:text-2xl">Egkremnoi Beach</h3>
+              <p class="text-lg text-button font-semibold lg:text-xl">$550</p>
+            </div>
+            <p class="text-gray-500 pl-7 mt-3 lg:text-lg">Lefkada, Greece</p>
+            <div class="flex px-7 pt-3 gap-1 items-center">
+              <p class="text-secondary font-bold lg:text-lg">4.9</p>
+              <img src="./assets/star_icon.png" class="h-3.5" loading="lazy" />
+            </div>
+          </div>
+          <div
+            class="bg-white flex flex-col rounded-2xl relative pb-8 animate-on-scroll shadow-lg"
+          >
+            <div
+              class="bg-primary absolute top-0 left-0 py-1 px-5 rounded-tl-2xl rounded-br-2xl"
+            >
+              <p class="text-white lg:text-lg">USA</p>
+            </div>
+            <img
+              src="./assets/oregon.png"
+              alt="Cannon Beach"
+              class="rounded-t-2xl"
+              loading="lazy"
+            />
+            <div class="px-7 pt-5 flex items-center justify-between">
+              <h3 class="text-xl font-semibold lg:text-2xl">Cannon Beach</h3>
+              <p class="text-lg text-button font-semibold lg:text-xl">$830</p>
+            </div>
+            <p class="text-gray-500 pl-7 mt-3 lg:text-lg">Oregon, USA</p>
+            <div class="flex px-7 pt-3 gap-1 items-center">
+              <p class="text-secondary font-bold lg:text-lg">5.0</p>
+              <img src="./assets/star_icon.png" class="h-3.5" loading="lazy" />
+            </div>
+          </div>
+          <div
+            class="bg-white flex flex-col rounded-2xl relative pb-8 animate-on-scroll shadow-lg"
+          >
+            <div
+              class="bg-primary absolute top-0 left-0 py-1 px-5 rounded-tl-2xl rounded-br-2xl"
+            >
+              <p class="text-white lg:text-lg">Thailand</p>
+            </div>
+            <img
+              src="./assets/thai.png"
+              alt="Railay Beach"
+              class="rounded-t-2xl"
+              loading="lazy"
+            />
+            <div class="px-7 pt-5 flex items-center justify-between">
+              <h3 class="text-xl font-semibold lg:text-2xl">Railay Beach</h3>
+              <p class="text-lg text-button font-semibold lg:text-xl">$950</p>
+            </div>
+            <p class="text-gray-500 pl-7 mt-3 lg:text-lg">Thailand</p>
+            <div class="flex px-7 pt-3 gap-1 items-center">
+              <p class="text-secondary font-bold lg:text-lg">4.9</p>
+              <img src="./assets/star_icon.png" class="h-4" loading="lazy" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="flex flex-col px-5 lg:flex-row lg:gap-60 w-full items-center pt-20 mb-20 lg:pl-0 lg:pr-24 lg:pt-40"
+      >
+        <img
+          src="./assets/travel_point.png"
+          class="w-10/12 lg:w-5/12 md:w-7/12"
+          loading="lazy"
+        />
+        <div class="flex flex-col pt-10">
+          <h3
+            class="font-bold text-sm text-center lg:text-xl lg:text-left text-primary tracking-widest"
+          >
+            W A N D E R L U S T
+          </h3>
+          <h2 class="font-bold text-2xl text-center lg:text-4xl lg:text-left">
+            Find Your Dream Getaway
+          </h2>
+          <p
+            class="text-sm text-center mt-5 text-gray-500 lg:text-balance lg:text-left lg:text-lg"
+          >
+            Discover the perfect destination tailored just for you, and make
+            your travel dreams a reality.
+          </p>
+          <div
+            class="grid grid-cols-1 lg:grid-cols-2 lg:grid-rows-2 gap-10 lg:gap-8 pt-10 lg:pt-14 px-8 lg:px-0"
+          >
+            <div
+              class="border-gray-200 bg-white border-2 shadow-md flex flex-col items-center gap-3 p-10 rounded-xl cursor-pointer group hover:bg-button-200"
+            >
+              <h3
+                class="text-4xl lg:text-5xl text-button font-bold group-hover:text-white"
+              >
+                200+
+              </h3>
+              <p
+                class="text-sm lg:text-lg text-center text-gray-500 lg:text-balance lg:text-left group-hover:text-white"
+              >
+                Holiday Package
+              </p>
+            </div>
+            <div
+              class="border-gray-200 bg-white border-2 shadow-md flex flex-col items-center gap-3 p-10 rounded-xl cursor-pointer group hover:bg-button-200"
+            >
+              <h3
+                class="text-4xl lg:text-5xl text-button font-bold group-hover:text-white"
+              >
+                450
+              </h3>
+              <p
+                class="text-sm lg:text-lg text-center text-gray-500 lg:text-balance lg:text-left group-hover:text-white"
+              >
+                Gift
+              </p>
+            </div>
+            <div
+              class="border-gray-200 bg-white border-2 shadow-md flex flex-col items-center gap-3 p-10 rounded-xl cursor-pointer group hover:bg-button-200"
+            >
+              <h3
+                class="text-4xl lg:text-5xl text-button font-bold group-hover:text-white"
+              >
+                10
+              </h3>
+              <p
+                class="text-sm lg:text-lg text-center text-gray-500 lg:text-balance lg:text-left group-hover:text-white"
+              >
+                Premium Airlines
+              </p>
+            </div>
+            <div
+              class="border-gray-200 bg-white border-2 shadow-md flex flex-col items-center gap-3 p-10 rounded-xl cursor-pointer group hover:bg-button-200"
+            >
+              <h3
+                class="text-4xl lg:text-5xl text-button font-bold group-hover:text-white"
+              >
+                12k+
+              </h3>
+              <p
+                class="text-sm lg:text-lg text-center text-gray-500 lg:text-balance lg:text-left group-hover:text-white"
+              >
+                Happy Customer
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="px-5 w-full pt-20 mb-20 lg:px-24 lg:pt-40">
+        <div
+          class="flex flex-col lg:flex-row-reverse w-full items-center lg:justify-end lg:gap-60"
+        >
+          <img
+            src="./assets/features_img.png"
+            class="w-10/12 lg:w-4/12 md:w-8/12"
+            loading="lazy"
+          />
+          <div class="flex flex-col lg:w-1/2 pt-10">
+            <h3
+              class="font-bold text-sm text-center lg:text-xl lg:text-left text-primary tracking-widest"
+            >
+              F E A T U R E S
+            </h3>
+            <h2 class="font-bold text-2xl text-center lg:text-4xl lg:text-left">
+              Unmatched Service Quality
+            </h2>
+            <p
+              class="text-sm text-center mt-5 text-gray-500 lg:text-balance lg:text-left lg:text-lg"
+            >
+              Enjoy exceptional service designed to exceed your expectations.
+            </p>
+            <div class="flex flex-col gap-10 pt-10 px-10 lg:pl-5 lg:w-8/12">
+              <div
+                class="flex flex-col lg:flex-row lg:gap-5 items-center bg-white shadow-lg rounded-2xl p-10 animate-on-scroll"
+              >
+                <img src="./assets/pin_icon.png" class="w-3/12 lg:w-16" />
+                <div>
+                  <h3
+                    class="font-bold text-lg lg:text-xl text-center lg:text-left mt-5 lg:mt-0"
+                  >
+                    Choose from Many Locations
+                  </h3>
+                  <p
+                    class="text-gray-500 text-sm text-center lg:text-left mt-2"
+                  >
+                    Explore a variety of destinations to find your perfect spot.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="flex flex-col lg:flex-row lg:gap-5 items-center bg-white shadow-lg rounded-2xl p-10 animate-on-scroll"
+              >
+                <img src="./assets/calendar_icon.png" class="w-3/12 lg:w-16" />
+                <div>
+                  <h3
+                    class="font-bold text-lg lg:text-xl text-center lg:text-left mt-5 lg:mt-0"
+                  >
+                    Plan Your Trip
+                  </h3>
+                  <p
+                    class="text-gray-500 text-sm text-center lg:text-left mt-2"
+                  >
+                    Effortlessly organize your travel plans.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="flex flex-col lg:flex-row lg:gap-5 items-center bg-white shadow-lg rounded-2xl p-10 animate-on-scroll"
+              >
+                <img src="./assets/discount_icon.png" class="w-3/12 lg:w-16" />
+                <div>
+                  <h3
+                    class="font-bold text-lg lg:text-xl text-center lg:text-left mt-5 lg:mt-0"
+                  >
+                    Great Savings
+                  </h3>
+                  <p
+                    class="text-gray-500 text-sm text-center lg:text-left mt-2"
+                  >
+                    Enjoy significant discounts on your next adventure.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
